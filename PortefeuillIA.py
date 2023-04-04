@@ -1,5 +1,6 @@
 def load_data():
-    data = pd.read_excel('nom_du_fichier.xlsx', sheet_name='nom_de_la_feuille')
+    url ='https://github.com/sedhadcci/PortfeuilleIA/blob/main/PFIA.xlsx'    
+    data = pd.read_excel(url , sheet_name='Feuil1')
     return data
 
 def search_ia_by_siren():
